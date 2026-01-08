@@ -1,0 +1,32 @@
+.menu-bar {
+  background-color: transparent;
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+
+.item {
+  color: rgb(0, 0, 0);
+  background-color: transparent;
+  font-size: 18px;
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 14px 20px;
+}
+
+.item.title {
+  font-weight: 600;
+}
+
+.item:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+a {
+  text-decoration: none;
+  transition: transform 0.3s;
+}
+
+a:hover {
+  transform: scale(1.07);
+}
+.items {align-items: right;}
