@@ -30,3 +30,21 @@ a:hover {
   transform: scale(1.07);
 }
 .items {align-items: right;}
+
+
+.fonts {
+  font-family: "Newsreader", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+p {
+  font-size: larger;
+
+}
+h2 {font-size: xx-large;}
+
+body {
+background: #ff5e29;
+
+font-size: xx-large;}
