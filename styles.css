@@ -21,6 +21,7 @@
 .item:hover {
   background-color: rgba(0, 0, 0, 0.1);
 }
+
 a {
   text-decoration: none;
   transition: transform 0.3s;
@@ -29,7 +30,10 @@ a {
 a:hover {
   transform: scale(1.07);
 }
-.items {align-items: right;}
+
+.items {
+  align-items: right;
+}
 
 
 .fonts {
@@ -38,13 +42,22 @@ a:hover {
   font-weight: <weight>;
   font-style: normal;
 }
-p {
-  font-size: larger;
 
+h2 {
+  font-size: xx-large;
 }
-h2 {font-size: xx-large;}
 
 body {
-background: #ff5e29;
+  background: #ff5e29;
 
-font-size: xx-large;}
+  font-size: xx-large;
+}
+
+.about {
+  text-align: center;
+}
+
+.image1 {
+  align: center;
+  width: 250px height: 250px
+}
